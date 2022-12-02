@@ -12,7 +12,7 @@ Weather Forecast - [demo](https://haber-notes.netlify.app/)
 
 ## Features
 
-- You can store your notes.
+- You can store your notes
 
 # To do
 
