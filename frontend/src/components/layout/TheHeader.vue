@@ -28,6 +28,6 @@ const handleLogout = () => {
   transition: all 0.2s ease-in-out;
 }
 .link:hover {
-  color: #616161;
+  color: #3d405b;
 }
 </style>
