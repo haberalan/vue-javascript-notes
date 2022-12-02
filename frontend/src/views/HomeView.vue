@@ -1,6 +1,8 @@
 <template>
   <v-container class="mt-16 align-self-start container" full-height>
-    <v-progress-circular indeterminate v-if="loading" />
+    <div v-if="loading" class="d-flex justify-center align-center mt-16">
+      <v-progress-circular indeterminate />
+    </div>
     <p v-else-if="!loading && error" class="d-flex justify-center text-h5 mt-16">{{ error }}</p>
     <div v-else-if="!loading && !error && items.length === 0" class="d-flex flex-column justify-center align-center">
       <p class="text-h5 mt-16">You don't have any notes.</p>
