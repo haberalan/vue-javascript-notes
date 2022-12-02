@@ -27,7 +27,7 @@
           <p class="text-center text-error font-weight-medium">{{ error }}</p>
         </v-col>
         <v-col cols="12" class="d-flex justify-center">
-          <v-btn to="/signup" variant="plain" class="text-black">Don't have an account? Signup</v-btn>
+          <v-btn to="/signup" variant="plain">Don't have an account? Signup</v-btn>
         </v-col>
       </v-row>
     </v-form>

@@ -12,6 +12,7 @@ app.use(router);
 app.use(store);
 app.use(vuetify);
 
-router.isReady().then(() => {
+router.isReady().then(async () => {
+  await store.dispatch('tryLogin');
   app.mount('#app');
 });

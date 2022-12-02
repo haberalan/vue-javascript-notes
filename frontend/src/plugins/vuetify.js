@@ -13,20 +13,11 @@ const light = {
   },
 };
 
-const dark = {
-  dark: true,
-  colors: {
-    app1: '#3d405b',
-    background: '#191919',
-  },
-};
-
 export default createVuetify({
   theme: {
     defaultTheme: 'light',
     themes: {
       light,
-      dark,
     },
   },
 });

@@ -17,7 +17,7 @@ const getMany = async (req, res) => {
   const user_id = req.user._id;
 
   try {
-    const notes = await Notes.find({ user_id });
+    const notes = await Notes.find({ user_id }).sort({ updatedAt: -1 });
 
     res.status(200).json(notes);
   } catch (err) {
