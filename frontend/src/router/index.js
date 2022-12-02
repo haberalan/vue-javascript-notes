@@ -24,7 +24,6 @@ const routes = [
     path: '/new',
     components: { default: NewNoteView, header: TheHeader },
     meta: { mustBeLogged: true },
-    props: true,
   },
   {
     path: '/login',
@@ -35,6 +34,12 @@ const routes = [
     path: '/signup',
     component: SignupView,
     meta: { mustBeLogged: false },
+  },
+  {
+    path: '/:catchAll(.*)*',
+    redirect: () => {
+      return { path: '/login' };
+    },
   },
 ];
 
