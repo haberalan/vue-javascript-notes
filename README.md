@@ -25,24 +25,31 @@ Remember to create your own MONGO_URI in ./backend/.env
 ```
 git clone git@github.com:haberalan/vue-javascript-notes.git
 ```
+
 ```
 cd vue-javascript-notes
 ```
+
 ```
 cd frontend
 ```
+
 ```
 npm install
 ```
+
 ```
 npm run serve
 ```
+
 ```
 cd ../backend
 ```
+
 ```
 npm install
 ```
+
 ```
 npm run dev
 ```
